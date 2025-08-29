@@ -1,0 +1,24 @@
+name: savings_tracker
+description: A Flutter app to track your savings across Sacco, Chumz, and MMF.
+publish_to: 'none' # since this is a personal project
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino icons for iOS-style icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
